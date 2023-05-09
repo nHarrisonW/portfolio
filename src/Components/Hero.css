@@ -60,5 +60,7 @@ span {
 
   .box h2, .box h1 {
     font-family: 'Jockey One', sans-serif;
+  }
+  h2 {
     color: orange;
   }

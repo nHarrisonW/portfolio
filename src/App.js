@@ -10,6 +10,7 @@ import CssOutlinedIcon from '@mui/icons-material/CssOutlined';
 import JavascriptOutlinedIcon from '@mui/icons-material/JavascriptOutlined';
 import AdvGenerator from './Components/advGenerator';
 import Rpsls from './Components/Rpsls';
+import Skills from './Components/Skills';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <div className='body'>
         
         < Hero />
+        < Skills />
         < AdvGenerator />
         < Rpsls />
 

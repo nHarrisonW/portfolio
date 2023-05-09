@@ -42,9 +42,12 @@
 .parent-bg, html {
   background: #003137;
   color: white;
-  display: flex;
+
 }
 .body {
-  min-width: 100vh;
-  margin-left: 32px;
+  /* min-width: 100vh; */
+  position: absolute;
+  margin-left: 8%;
+  width: 92%;
+  margin-bottom: 20px;
 }

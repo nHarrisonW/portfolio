@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Jura:wght@400;700&display=swap');
+
+/* 
+font-family: 'Jockey One', sans-serif;
+font-family: 'Jura', sans-serif;
+*/
+
+.skills-area {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: rgba(34, 34, 53, 0.5);
+    width: 90%;
+    margin-right: 45px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skills-area h1 {
+    font-family: 'Jockey One', sans-serif;
+    width: 300px;
+}
+
+.lists {
+    display: inline-flex;
+    justify-content: space-center;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+}
+
+.lists p {
+    align-items: center;
+    margin: 0;
+}
+.white-bg svg{
+    background-color: white;
+}
+.lists svg {
+    margin: 10px;
+    size: 32 !important;
+}
+.lists h5 {
+    width: 100px;
+    font-family: 'Jockey One', sans-serif;
+}
+ul {
+    width: 150px;
+}
