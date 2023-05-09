@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Jura:wght@400;700&display=swap');
+
+
+.Game img{
+    width: 635px;
+    margin-left: 25px;
+}
+.Game {
+    display: inline-flex;
+    flex-direction: row;
+    font-family: 'Jura', sans-serif;
+    margin-right: 50px;
+}

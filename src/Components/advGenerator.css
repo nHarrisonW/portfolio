@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Jura:wght@400;700&display=swap');
+
+
+.Generator img{
+    width: 635px;
+    margin-right: 25px;
+}
+.Generator {
+    display: inline-flex;
+    font-family: 'Jura', sans-serif;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.Generator a {
+    color: white;
+}
+.Generator span {
+    color: orange;
+}

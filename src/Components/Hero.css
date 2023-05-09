@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Jura:wght@400;700&display=swap');
+
+/* 
+font-family: 'Jockey One', sans-serif;
+font-family: 'Jura', sans-serif;
+*/
+
+@keyframes aboutSpinner {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.about-imgc{
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-imgc img{
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    border: .2rem solid var(--main-color);
+}
+
+span {
+    color: var(--main-color);
+}
+
+.about-img .circle-spin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: .2rem solid var(--bg-color);
+    border-bottom: .2rem solid var(--bg-color);
+    border-left: .2rem solid var(--main-color);
+    border-right: .2rem solid var(--main-color);
+    animation: aboutSpinner 8s linear infinite;
+    z-index: 0;
+}
+
+:root {
+    --main-color: orange;
+    --bg-color: #003137;
+  }
+  
+
+  .box img{
+    width: 120px;
+  }
+
+  .box h2, .box h1 {
+    font-family: 'Jockey One', sans-serif;
+    color: orange;
+  }

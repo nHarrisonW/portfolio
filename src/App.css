@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.parent-bg, html {
+  background: #003137;
+  color: white;
+  display: flex;
+}
+.body {
+  min-width: 100vh;
+  margin-left: 32px;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Jura:wght@400;700&display=swap');
+
+.Nav-bg {
+    background-color: #081F22;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Jura', sans-serif;
+    min-width: 70px;
+    font-weight: 700;
+    min-height: 100vh;
+    padding: 0 10%;
+}
+svg {
+    height: 30px;
+    margin: 10px 0;
+}
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+ .bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+ }
+
+ 
