@@ -3,6 +3,7 @@
 
 .Generator img{
     width: 635px;
+    height: 340px;
     margin-right: 25px;
 }
 .Generator {
@@ -10,9 +11,15 @@
     font-family: 'Jura', sans-serif;
     flex-direction: row;
     margin-right: 50px;
+    font-weight: 700;
+    position: relative;
 }
 .Generator a {
     color: white;
+font-family: 'Jockey One', sans-serif;
+}
+.Generator a:hover {
+    color: #ACC12F;
 }
 .Generator span {
     color: orange;

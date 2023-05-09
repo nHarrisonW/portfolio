@@ -10,4 +10,15 @@
     flex-direction: row;
     font-family: 'Jura', sans-serif;
     margin-right: 50px;
+    font-weight: 700;
+}
+.Game a{
+    color: white;
+font-family: 'Jockey One', sans-serif;
+}
+.Game a:hover {
+    color: orangered;
+}
+.green-txt {
+
 }

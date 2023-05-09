@@ -4,26 +4,42 @@
     background-color: #081F22;
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: end;
     font-family: 'Jura', sans-serif;
-    min-width: 70px;
     font-weight: 700;
     min-height: 100vh;
-    padding: 0 10%;
+    height: 100%;
+    padding: 0 2%;
+    position: fixed;
 }
 svg {
     height: 30px;
-    margin: 10px 0;
+    margin: 50%;
+}
+svg:hover {
+    /* fill: black; */
+}
+
+.entries {
+    height: 100vh;
+    justify-content: end;
+    display: inline-flex;
+    flex-direction: column;
 }
 .top {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
+    margin: 0;
 }
  .bottom {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
+    margin: 0;
  }
 
  
+ .parent {
+    flex-direction: row;
+ }
