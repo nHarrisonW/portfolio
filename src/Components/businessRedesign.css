@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Jura:wght@400;700&display=swap');
+
+
+.Cama img{
+    width: 635px;
+    height: 340px;
+    margin-right: 25px;
+    /* border: 1px solid black; */
+
+    border: 3px solid;
+    border-image: linear-gradient( 90deg, #ff0000, #003137, rgba(255, 255, 255, 0)) 1;
+}
+.Cama {
+    display: inline-flex;
+    font-family: 'Jura', sans-serif;
+    flex-direction: row;
+    margin-right: 50px;
+    font-weight: 700;
+    position: relative;
+    margin: 25px 50px 25px 0;
+}
+.Cama p{
+    font-size: 1vw;
+}
+.Cama h1 {
+    font-size: 2vw;
+}
+.Cama a {
+    color: white;
+font-family: 'Jockey One', sans-serif;
+font-weight: lighter;
+display: inline-flex;
+}
+.Cama a:hover {
+    color: #e64417;
+}
+
+.green {
+    color: #16DB65;
+}
+.pink {
+    color: #FD3C90;
+}
+.purple {
+    color: #7952B3;
+}
+.aqua {
+    color: #49BEAA;
+}
+.react {
+    color: #61DAFB;
+}
+.yellow {
+    color: #F7DF1E;
+}

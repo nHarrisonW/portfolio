@@ -4,6 +4,9 @@
 .Game img{
     width: 635px;
     margin-left: 25px;
+    border: 3px solid;
+    border-image: linear-gradient( 270deg, #007bff, #003137, rgba(255, 255, 255, 0)) 1;
+
 }
 .Game {
     display: inline-flex;
@@ -11,6 +14,13 @@
     font-family: 'Jura', sans-serif;
     margin-right: 50px;
     font-weight: 700;
+    margin: 25px 50px 25px 0;
+}
+.Game p{
+    font-size: 1vw;
+}
+.Game h1 {
+    font-size: 2vw;
 }
 .Game a{
     color: white;

@@ -11,11 +11,15 @@ export default function Hero() {
         <br/>
         <span className='white'> name:</span> 'n. harrison wilkins',
         <br/>
-        <span className='white'> age:</span> '22',
+        <span className='white'> email:</span> <a className='' href="mailto:nwilkins@codestack.co">
+          'nwilkins@codestack.co',</a> 
         <br/>
-        <span className='white'> location:</span> 'tracy, ca'
-        {/* <br/>
-        <span className='white'> hobbies:</span> <span className='white'>[</span> 'fitness, gaming' <span className='white'>]</span> */}
+        <span className='white'> number:</span> <a href="tel:2096122203">
+          '209-612-2203',</a> 
+        <br/>
+        <span className='white'> location:</span> 'tracy, ca',
+        <br/>
+        <span className='white'> currently learning:</span> <span className='white'>[</span> 'react-native, typescript, angular' <span className='white'>]</span>
         <br/> <span className='white'>{'};'}</span>
         </h1>
         

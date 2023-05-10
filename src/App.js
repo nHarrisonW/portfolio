@@ -7,11 +7,12 @@ import AdvGenerator from './Components/advGenerator';
 import Rpsls from './Components/Rpsls';
 import Skills from './Components/Skills';
 import Footer from './Components/Footer';
+import CamaProject from './Components/businessRedesign';
 
 export default function App() {
   return (
     <div className='parent-bg'>
-      <div>
+      <div className='nav'>
         
         < NavBar/>
 
@@ -20,8 +21,10 @@ export default function App() {
         
         < Hero />
         < Skills />
-        < AdvGenerator />
+
+        < CamaProject />
         < Rpsls />
+        < AdvGenerator />
         < Footer />
 
       </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { DiApple, DiBootstrap, DiCss3, DiHtml5, DiIllustrator, DiJsBadge, DiNodejsSmall, DiPhotoshop, DiReact, DiUnitySmall, DiVisualstudio, DiWindows } from 'react-icons/di'
 import './Skills.css'
-import { IconName, SiCsharp, SiFigma, SiFilezilla, SiJirasoftware, SiMicrosoftazure, SiNotion, SiPostman, SiSlack, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { IconName, SiCsharp, SiFigma, SiFilezilla, SiJirasoftware, SiMicrosoftazure, SiMui, SiNotion, SiPostman, SiSlack, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 
 
@@ -10,7 +10,7 @@ export default function Skills() {
     return (
         <div className='parent'>
         <div className='skills-area'>
-
+            {/* dev skills */}
             <div className='lists'>
             <h5>dev skills:</h5>
                 {/* React, css, js, tailwind */}
@@ -86,9 +86,15 @@ export default function Skills() {
                             size={32} />
                         <p>typescript</p>
                     </li>
+                    <li>
+                        < SiMui
+                            fill='#007FFE'
+                            size={32} />
+                        <p>material ui</p>
+                    </li>
                 </ul>
             </div>
-
+            {/* work flow skills */}
             <div className='lists'>
             <h5>work flow skills:</h5>
                 {/* slack, jira, azure */}
@@ -100,22 +106,11 @@ export default function Skills() {
                         <p>slack</p>
                     </li>
                     <li>
-                        < SiJirasoftware
-                            fill='#fff'
-                            size={32} />
-                        <p>jira</p>
-                    </li>
-                    <li>
                         < SiMicrosoftazure
-                            fill='#fff'
+                            fill='#0078D3'
                             size={32} />
                         <p>azure</p>
                     </li>
-                </ul>
-
-
-                {/* apple, windows, postman */}
-                <ul>
                     <li>
                         < DiApple
                             fill='#fff'
@@ -123,37 +118,44 @@ export default function Skills() {
                         <p>mac + ios</p>
                     </li>
                     <li>
-                        < DiWindows
-                            fill='#fff'
+                        < SiFilezilla
+                            fill='#B50101'
                             size={48} />
-                        <p>windows</p>
+                        <p>filezilla</p>
+                    </li>
+                    
+                </ul>
+                {/* jira, windows, postman, notion */}
+                <ul>
+                <li>
+                        < SiJirasoftware
+                            fill='#2484FF'
+                            size={32} />
+                        <p>jira</p>
                     </li>
                     <li>
                         < SiPostman
-                            fill='#fff'
+                            fill='#F86837'
                             size={48} />
                         <p>postman</p>
                     </li>
-                </ul>
-                {/* notion, filezilla */}
-                <ul>
+                    <li>
+                        < DiWindows
+                            fill='#0078D3'
+                            size={48} />
+                        <p>windows</p>
+                    </li>
                     <li className='white-bg'>
                         < SiNotion
                             fill='#000'
                             size={48} />
                         <p>notion</p>
                     </li>
-                    <li>
-                        < SiFilezilla
-                            fill='#fff'
-                            size={48} />
-                        <p>filezilla</p>
-                    </li>
                 </ul>
             </div>
-
+            {/* ui/ux skills */}
             <div className='lists'>
-            <h5>creative skills:</h5>
+            <h5>ui/ux skills:</h5>
                 {/* figma, illustrator, phostoshop */}
                 <ul>
                     <li>

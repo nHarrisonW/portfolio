@@ -3,11 +3,11 @@ import './Navbar.css'
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import CodeOffOutlinedIcon from '@mui/icons-material/CodeOffOutlined';
 
-import { DiCss3Full, DiGithub, DiGithubBadge, DiReact, IconName } from "react-icons/di";
-import { MdArticle } from "react-icons/md";
+import { DiGithubBadge, IconName } from "react-icons/di";
+
 import { SiCodewars, SiLinkedin } from 'react-icons/si';
 
-import { AiFillFilePdf, AiFillFileText } from "react-icons/ai";
+import { AiFillFileText } from "react-icons/ai";
 
 
 export default function NavBar() {
@@ -16,14 +16,9 @@ export default function NavBar() {
             <CodeOutlinedIcon className='top'/>
 
                 <div className='entries'>
-                
+                {/* linkedIn */}
                 <a href="https://www.linkedin.com/in/nharrisonw/">
                     < SiLinkedin
-                    size={48}
-                    fill='#fff' />
-                </a>
-                <a href="../Assets/NHarrisonWilkins-resume.pdf" download>
-                    < AiFillFileText
                     size={48}
                     fill='#fff' />
                 </a>
@@ -33,7 +28,13 @@ export default function NavBar() {
                     size={48}
                     fill='#fff'/>
                 </a>
-
+                {/* resume */}
+                <a href="../Assets/NHarrisonWilkins-resume.pdf" download>
+                    < AiFillFileText
+                    size={48}
+                    fill='#fff' />
+                </a>
+                {/* codewars */}
                 <a href="https://www.codewars.com/users/nHarrisonW">
                     < SiCodewars 
                     size={48}
