@@ -1,5 +1,4 @@
 import React from 'react'
-import { CssOutlinedIcon } from '@mui/icons-material/CssOutlined';
 import './Hero.css'
 import logoImg from '../Assets/nhw-logo-blue-removebg-preview.png'
 
