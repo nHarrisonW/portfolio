@@ -8,13 +8,13 @@ font-family: 'Jura', sans-serif;
 .skills-area {
     margin-top: 30px;
     margin-bottom: 30px;
-    background: rgba(34, 34, 53, 0.5);
-    width: 90%;
+    background: rgba(0, 0, 0, 0.15);
     margin-right: 45px;
     padding: 2%;
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 .skills-area h1 {
@@ -27,11 +27,15 @@ font-family: 'Jura', sans-serif;
     justify-content: space-center;
     font-family: 'Jura', sans-serif;
     font-weight: 700;
+    background: hsla(0, 0%, 0%, 0.15);
+    margin: 0 10px;
+    
+    padding: 40px;
 }
 
 .lists p {
-    align-items: center;
     margin: 0;
+    font-size: 0.8vw;
 }
 .white-bg svg{
     background-color: white;
@@ -43,7 +47,5 @@ font-family: 'Jura', sans-serif;
 .lists h5 {
     width: 100px;
     font-family: 'Jockey One', sans-serif;
-}
-ul {
-    width: 150px;
+    height: 100%;
 }

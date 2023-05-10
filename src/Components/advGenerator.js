@@ -33,8 +33,8 @@ export default function AdvGenerator() {
             <h1>advice generator</h1>
             
           </a>
-        <p>the advice generator is a web application developed using <span>react</span> and <span>react-bootstrap</span> . it was created as a project for frontend mentor, with the goal of providing users with random advice and inspiration sourced from the <a href="https://api.adviceslip.com">advice slip api</a>.</p>
-        <p>by including the advice generator in my portfolio, i aim to highlight my skills in frontend development and showcase my ability to create engaging and functional applications. this project exemplifies my capability to follow a design, technical expertise, and api integration to deliver a valuable user experience.</p>
+        <p>the advice generator is a web application developed using <span className='react'>react</span> and <span className='purple'>react-bootstrap</span> . it was created as a project for <a href="">frontend mentor</a>, with the goal of providing users with random advice and <span className='pink'> inspiration </span>sourced from the <a href="https://api.adviceslip.com">advice slip api</a>.</p>
+        <p>by including the advice generator in my portfolio, i aim to highlight my skills in <span className=''> frontend development </span>and showcase my ability to create engaging and <span className='yellow'> functional applications</span>. this project exemplifies my capability to follow a design, technical expertise, and api integration to deliver a valuable user experience.</p>
         </div>
 
 

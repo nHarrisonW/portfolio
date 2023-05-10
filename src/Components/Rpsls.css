@@ -15,10 +15,26 @@
 .Game a{
     color: white;
 font-family: 'Jockey One', sans-serif;
+display: inline-flex;
 }
 .Game a:hover {
-    color: orangered;
+    color: #264DE4;
 }
-.green-txt {
-
+.green {
+    color: #16DB65;
+}
+.pink {
+    color: #FD3C90;
+}
+.purple {
+    color: #7952B3;
+}
+.aqua {
+    color: #49BEAA;
+}
+.react {
+    color: #61DAFB;
+}
+.yellow {
+    color: #F7DF1E;
 }

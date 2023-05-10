@@ -17,10 +17,28 @@
 .Generator a {
     color: white;
 font-family: 'Jockey One', sans-serif;
+font-weight: lighter;
+display: inline-flex;
 }
 .Generator a:hover {
-    color: #ACC12F;
+    color: #16DB65;
 }
-.Generator span {
-    color: orange;
+
+.green {
+    color: #16DB65;
+}
+.pink {
+    color: #FD3C90;
+}
+.purple {
+    color: #7952B3;
+}
+.aqua {
+    color: #49BEAA;
+}
+.react {
+    color: #61DAFB;
+}
+.yellow {
+    color: #F7DF1E;
 }

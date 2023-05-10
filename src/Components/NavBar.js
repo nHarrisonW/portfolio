@@ -22,7 +22,7 @@ export default function NavBar() {
                     size={48}
                     fill='#fff' />
                 </a>
-                <a href="./NHarrisonWilkins-resume.pdf" download>
+                <a href="../Assets/NHarrisonWilkins-resume.pdf" download>
                     < AiFillFileText
                     size={48}
                     fill='#fff' />

@@ -1,5 +1,5 @@
 import React from 'react'
-import { DiApple, DiBootstrap, DiCss3, DiHtml5, DiIllustrator, DiJavascript, DiJsBadge, DiNodejs, DiNodejsSmall, DiPhotoshop, DiReact, DiUnitySmall, DiVisualstudio, DiWindows } from 'react-icons/di'
+import { DiApple, DiBootstrap, DiCss3, DiHtml5, DiIllustrator, DiJsBadge, DiNodejsSmall, DiPhotoshop, DiReact, DiUnitySmall, DiVisualstudio, DiWindows } from 'react-icons/di'
 import './Skills.css'
 import { IconName, SiCsharp, SiFigma, SiFilezilla, SiJirasoftware, SiMicrosoftazure, SiNotion, SiPostman, SiSlack, SiTailwindcss, SiTypescript } from "react-icons/si";
 
@@ -109,7 +109,7 @@ export default function Skills() {
                         < SiMicrosoftazure
                             fill='#fff'
                             size={32} />
-                        <p>filezilla</p>
+                        <p>azure</p>
                     </li>
                 </ul>
 
@@ -126,7 +126,7 @@ export default function Skills() {
                         < DiWindows
                             fill='#fff'
                             size={48} />
-                        <p>azure</p>
+                        <p>windows</p>
                     </li>
                     <li>
                         < SiPostman

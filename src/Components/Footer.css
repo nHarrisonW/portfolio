@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Jura:wght@400;700&display=swap');
+
+/* 
+font-family: 'Jockey One', sans-serif;
+font-family: 'Jura', sans-serif;
+*/
+
+.footer {
+    margin:  30px 0 0 0;
+    font-family: 'Jura', sans-serif;
+    background: hsla(0, 0%, 0%, 0.25);
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+}
+
+.footer h5, h6 {
+    font-weight: 700;
+    color: hsl(0, 0%, 70%);
+}
+.green {
+    color: #16DB65 ;
+}
