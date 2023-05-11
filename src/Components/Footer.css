@@ -21,3 +21,9 @@ font-family: 'Jura', sans-serif;
 .green {
     color: #16DB65 ;
 }
+
+@media (max-width: 770px) {
+    .footer {
+        width: 90%;
+    }
+}

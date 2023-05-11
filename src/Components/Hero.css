@@ -17,13 +17,14 @@ span {
 
   .box img{
     width: 120px;
-    display: inline-flex;
+    
   }
 
    .box h1 {
     font-family: 'Jura', sans-serif;
     font-weight: 700;
     color: #7eb93a;
+    font-size: 3vw;
   }
   h2 {
     color: var(--main-color);
@@ -38,4 +39,14 @@ span {
   }
   .box a:hover {
     color: #619823;
+  }
+
+  .box div {
+    margin-left: 30px;
+  }
+  
+  @media (max-width: 770px) {
+    .box h1 {
+      font-size: 2.5vw;
+    }
   }

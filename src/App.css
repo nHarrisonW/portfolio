@@ -47,7 +47,16 @@
 .body {
   /* min-width: 100vh; */
   position: absolute;
-  margin-left: 8%;
+  margin-left: 7%;
   width: 92%;
   margin-bottom: 20px;
+}
+
+
+@media (max-width: 770px) {
+  .body {
+    margin-left: 15%;
+
+    width: 90vw;
+  }
 }

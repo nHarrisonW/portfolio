@@ -50,7 +50,7 @@ export default function CamaProject() {
                     <h1>business redesign</h1>
 
                 </a>
-                <p>this project involves redesigning the website for a local gym using <span className='purple'>react-bootstrap</span> . the main objective is to enhance the user experience and improve the user interface by implementing a<span className='pink'> responsive </span>design. it was also made in collaboration with another student, utilizing <span className='green'>git</span></p>
+                <p>this project involves redesigning the website for a local gym using <span className='purple'>react-bootstrap</span>. the main objective is to enhance the user experience and improve the user interface by implementing a<span className='pink'> responsive </span>design. it was also made in collaboration with another student, utilizing <span className='green'>git</span></p>
 
                 <p>i aim to showcase my<span className='aqua'> creative ability </span>and understanding of<span className='yellow'> ui/ux </span>principles. the goal is to provide a <span >seamless</span> and enjoyable user experience that not only highlights the gym's unique features but also encourages users to explore and engage with the website's content.</p>
             </div>

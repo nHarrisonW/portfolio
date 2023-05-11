@@ -2,7 +2,7 @@
 
 
 .Game img{
-    width: 635px;
+    width: 40vw;
     margin-left: 25px;
     border: 3px solid;
     border-image: linear-gradient( 270deg, #007bff, #003137, rgba(255, 255, 255, 0)) 1;

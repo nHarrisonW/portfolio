@@ -2,8 +2,8 @@
 
 
 .Generator img{
-    width: 635px;
-    height: 340px;
+    width: 40vw;
+    height: auto;
     margin-right: 25px;
     border: 3px solid;
     border-image: linear-gradient( 90deg, #a6ff00, #003137, rgba(255, 255, 255, 0)) 1;
@@ -51,4 +51,13 @@ display: inline-flex;
 }
 .yellow {
     color: #F7DF1E;
+}
+
+
+.fm {
+    text-decoration-style: wavy;
+    text-decoration-color: #fa9894;
+}
+.fm:hover {
+    color: #cde2e1 !important;
 }

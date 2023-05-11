@@ -6,7 +6,7 @@ font-family: 'Jura', sans-serif;
 */
 
 .skills-area {
-    margin: 25px 50px 25px 0;
+    margin: 25px 0 25px 0;
     background: rgba(0, 0, 0, 0.15);
     padding: 2%;
     display: flex;
@@ -17,25 +17,25 @@ font-family: 'Jura', sans-serif;
     
 }
 
-.skills-area h1 {
-    font-family: 'Jockey One', sans-serif;
-    width: 300px;
-}
-
 .lists {
     display: flex;
-    justify-content: space-center;
+    justify-content: space-evenly;
     font-family: 'Jura', sans-serif;
     font-weight: 700;
     background: hsla(0, 0%, 0%, 0.15);
-    margin: 0 10px;
-    width: 35%;
+    margin:0 10px;
+    width: 100%;
     padding: 20px;
+    
+
 }
 
 .lists p {
     margin: 0;
     font-size: 0.8vw;
+    white-space: nowrap;
+    text-align: center;
+
 }
 .white-bg svg{
     background-color: white;
@@ -47,14 +47,22 @@ font-family: 'Jura', sans-serif;
     size: 32 !important;
 }
 .lists h5 {
-    /* max-width: 100px; */
     font-family: 'Jockey One', sans-serif;
     height: 100%;
     font-size: 1vw;
-    display: inline;
-    white-space: nowrap;
+    list-style-type: none;
 }
 .lists ul {
     list-style-type: none;
-    
+    max-width: 65px;
+}
+
+@media (max-width: 770px) {
+    .skills-area {
+        flex-direction: column;
+
+    }
+    .lists p {
+        font-size: 2.3vw;
+    }
 }
