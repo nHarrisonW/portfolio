@@ -21,7 +21,7 @@ export default function Hero() {
         <br/>
         <span className='white'> location:</span> 'tracy, ca',
         <br/>
-        <span className='white'> currently learning:</span> <span className='white'>[</span> 'react-native, typescript, angular' <span className='white'>]</span>
+        <span className='white'> currently learning:</span> <span className='white'>[</span> 'react-native', typescript', 'angular' <span className='white'>]</span>
         <br/> 
         </div>
         <span className='white'>{'};'}</span>
