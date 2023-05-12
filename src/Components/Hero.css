@@ -16,15 +16,22 @@ span {
   
 
   .box img{
-    width: 120px;
+    width: 12vw;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 150px;
     
+  }
+  .box {
+    margin: 4vw 0 0 0;
   }
 
    .box h1 {
     font-family: 'Jura', sans-serif;
     font-weight: 700;
     color: #7eb93a;
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
   h2 {
     color: var(--main-color);
@@ -48,5 +55,13 @@ span {
   @media (max-width: 770px) {
     .box h1 {
       font-size: 2.5vw;
+      white-space: nowrap;
+    }
+    .box div {
+      margin-left: 15px;
+    }
+    .box img {
+      margin: 0;
+      width: 12vw;
     }
   }

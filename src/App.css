@@ -47,16 +47,19 @@
 .body {
   /* min-width: 100vh; */
   position: absolute;
-  margin-left: 7%;
+  margin-left: 8%;
   width: 92%;
   margin-bottom: 20px;
 }
 
 
 @media (max-width: 770px) {
+  .nav {
+    width: 20vw;
+  }
   .body {
-    margin-left: 15%;
 
-    width: 90vw;
+    margin-left: 80px;
+    width: 80vw;
   }
 }

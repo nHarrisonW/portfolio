@@ -18,6 +18,7 @@ export default function Rpsls() {
       </div>
       {/* <img src={RpslsSS} alt="" /> */}
       <Carousel
+      controls={false}
       indicators={false}
       fade >
         <Carousel.Item>

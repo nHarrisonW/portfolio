@@ -2,7 +2,7 @@
 
 
 .Game img{
-    width: 40vw;
+    width: 42vw;
     margin-left: 25px;
     border: 3px solid;
     border-image: linear-gradient( 270deg, #007bff, #003137, rgba(255, 255, 255, 0)) 1;
@@ -14,7 +14,7 @@
     font-family: 'Jura', sans-serif;
     margin-right: 50px;
     font-weight: 700;
-    margin: 25px 50px 25px 0;
+    margin: 25px 50px 0 0;
 }
 .Game p{
     font-size: 1vw;
@@ -47,4 +47,21 @@ display: inline-flex;
 }
 .yellow {
     color: #F7DF1E;
+}
+@media (max-width: 770px) {
+    .Game {
+    flex-direction: column-reverse;
+    margin: 0;
+    }
+    .Game img {
+        width: 100%;
+        margin: 0;
+    }
+    .Game p {
+        font-size: 12px;
+    }
+    .Game h1 {
+            font-size: 5vw;
+            text-align: right;
+    }
 }

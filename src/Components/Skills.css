@@ -6,15 +6,14 @@ font-family: 'Jura', sans-serif;
 */
 
 .skills-area {
-    margin: 25px 0 25px 0;
-    background: rgba(0, 0, 0, 0.15);
+    margin: 25px 0 0 0;
     padding: 2%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 99%;
     position: relative;
-    
+    border-radius: 10px;
 }
 
 .lists {
@@ -26,7 +25,7 @@ font-family: 'Jura', sans-serif;
     margin:0 10px;
     width: 100%;
     padding: 20px;
-    
+    border-radius: 10px;
 
 }
 
@@ -61,8 +60,21 @@ font-family: 'Jura', sans-serif;
     .skills-area {
         flex-direction: column;
 
+        margin: 0 0 10px 0;
+        background: none;
+        padding: 0 50px;
     }
     .lists p {
-        font-size: 2.3vw;
+        font-size: 1.8vw;
+    }
+    .lists {
+        margin-top: 10px;
+        padding-right: 100px;
+        border-radius: 10px;
+    }
+    .skills-area h5 {
+        font-size: 4vw;
+        max-width: 127px;
+        margin-right: 20px;
     }
 }
