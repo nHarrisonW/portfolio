@@ -2,11 +2,9 @@
 
 
 .Cama img{
-    width: 40vw;
+    width: 42vw;
     height: auto;
     margin-right: 25px;
-    /* border: 1px solid black; */
-
     border: 3px solid;
     border-image: linear-gradient( 90deg, #ff0000, #003137, rgba(255, 255, 255, 0)) 1;
 }
@@ -17,7 +15,7 @@
     margin-right: 50px;
     font-weight: 700;
     position: relative;
-    margin: 25px 50px 25px 0;
+    margin: 25px 50px 0 0;
 }
 .Cama p{
     font-size: 1vw;
@@ -27,9 +25,9 @@
 }
 .Cama a {
     color: white;
-font-family: 'Jockey One', sans-serif;
-font-weight: lighter;
-display: inline-flex;
+    font-family: 'Jockey One', sans-serif;
+    font-weight: lighter;
+    display: inline-flex;
 }
 .Cama a:hover {
     color: #e64417;
@@ -52,4 +50,21 @@ display: inline-flex;
 }
 .yellow {
     color: #F7DF1E;
+}
+
+@media (max-width: 770px) {
+    .Cama {
+    margin: 0;
+    flex-direction: column;
+    }
+    .Cama .carousel img {
+        width: 100%;
+        margin: 0;
+    }
+    .Cama p {
+        font-size: 12px;
+    }
+        .Cama h1 {
+            font-size: 30px;
+    }
 }

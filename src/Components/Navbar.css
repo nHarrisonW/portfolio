@@ -4,7 +4,7 @@
     background-color: #081F22;
     display: inline-flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     font-family: 'Jura', sans-serif;
     font-weight: 700;
     min-height: 100vh;
@@ -16,13 +16,13 @@ svg {
     height: 30px;
     margin-bottom: 100%;
 }
-.Nav-bg svg:hover {
+.Nav-bg a > svg:hover {
     fill: #3178C7;
 }
 
 .entries {
     height: 100vh;
-    justify-content: end;
+    justify-content: flex-end;
     display: inline-flex;
     flex-direction: column;
 }

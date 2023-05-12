@@ -2,8 +2,9 @@ import React from 'react'
 import './businessRedesign.css'
 import redesignBefore from '../Assets/CamaOldHero.png'
 import redesignBefore2 from '../Assets/CamaOldFooter.png'
-import redesignAfter from '../Assets/CamaNewHero.png'
 import redesignFooter from '../Assets/CamaNewFooterSS.png'
+import redesignHero from '../Assets/CamaNewHero2.png'
+import redesignContact from '../Assets/CamaNewContact.png'
 import { Carousel } from 'react-bootstrap'
 
 export default function CamaProject() {
@@ -11,6 +12,7 @@ export default function CamaProject() {
         <div className='Cama'>
 
             <Carousel
+                controls={false}
                 indicators={false}
                 fade >
                 <Carousel.Item>
@@ -38,8 +40,14 @@ export default function CamaProject() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        src={redesignAfter}
-                        alt="fourth slide"
+                        src={redesignHero}
+                        alt="Fourth slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        src={redesignContact}
+                        alt="Fourth slide"
                     />
                 </Carousel.Item>
             </Carousel>

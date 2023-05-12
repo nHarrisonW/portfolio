@@ -17,25 +17,33 @@ export default function NavBar() {
 
                 <div className='entries'>
                 {/* linkedIn */}
-                <a href="https://www.linkedin.com/in/nharrisonw/">
+                <a
+                target={'_blank'} 
+                href="https://www.linkedin.com/in/nharrisonw/">
                     < SiLinkedin
                     size={48}
                     fill='#fff' />
                 </a>
                     {/* github icon */}
-                <a href="https://github.com/nHarrisonW">
+                <a 
+                target={'_blank'} 
+                href="https://github.com/nHarrisonW">
                     < DiGithubBadge 
                     size={48}
                     fill='#fff'/>
                 </a>
                 {/* resume */}
-                <a href="../Assets/NHarrisonWilkins-resume.pdf" download>
+                <a 
+                target={'_blank'} 
+                href="../Assets/NHarrisonWilkins-resume.pdf" download>
                     < AiFillFileText
                     size={48}
                     fill='#fff' />
                 </a>
                 {/* codewars */}
-                <a href="https://www.codewars.com/users/nHarrisonW">
+                <a 
+                target={'_blank'} 
+                href="https://www.codewars.com/users/nHarrisonW">
                     < SiCodewars 
                     size={48}
                     fill='#fff'/>
