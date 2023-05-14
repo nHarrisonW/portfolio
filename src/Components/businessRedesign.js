@@ -53,7 +53,9 @@ export default function CamaProject() {
             </Carousel>
 
             <div>
-                <a href="https://teamcamasite.azurewebsites.net/">
+                <a
+                target='_blank'
+                href="https://teamcamasite.azurewebsites.net/">
 
                     <h1>business redesign</h1>
 

@@ -1,0 +1,36 @@
+
+.about-parent {
+    display: inline-flex;
+    font-family: 'Jura', sans-serif;
+    flex-direction: row;
+    font-weight: 700;
+    position: relative;
+    margin: 3% 3% 0 0;
+}
+.about-img img {
+    height: 30vw;
+    border-radius: 15%;
+    
+}
+.about-text {
+    margin: 0;
+}
+.about-img p {
+    text-align: center;
+    font-size: 0.2vw;
+}
+
+@media (max-width: 770px) {
+    .about-text h1 {
+        font-size: 3.5vw;
+    }
+    .about-text h2 {
+        font-size: 2.5vw;
+    }
+    .about-text h3 {
+        font-size: 2vw;
+    }
+    .about-text h4 {
+        font-size: 1.8vw;
+    }
+}

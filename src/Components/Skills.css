@@ -47,9 +47,10 @@ font-family: 'Jura', sans-serif;
 }
 .lists h5 {
     font-family: 'Jockey One', sans-serif;
-    height: 100%;
+    
     font-size: 1vw;
     list-style-type: none;
+    
 }
 .lists ul {
     list-style-type: none;

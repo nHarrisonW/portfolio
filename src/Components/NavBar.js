@@ -2,11 +2,10 @@ import React from 'react'
 import './Navbar.css'
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import CodeOffOutlinedIcon from '@mui/icons-material/CodeOffOutlined';
+import resume from '../Assets/NHarrisonWilkins-resume.pdf'
 
 import { DiGithubBadge, IconName } from "react-icons/di";
-
 import { SiCodewars, SiLinkedin } from 'react-icons/si';
-
 import { AiFillFileText } from "react-icons/ai";
 
 
@@ -35,7 +34,7 @@ export default function NavBar() {
                 {/* resume */}
                 <a 
                 target={'_blank'} 
-                href="../Assets/NHarrisonWilkins-resume.pdf" download>
+                href={resume} download>
                     < AiFillFileText
                     size={48}
                     fill='#fff' />

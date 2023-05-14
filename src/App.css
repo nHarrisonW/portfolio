@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Jura:wght@400;700&display=swap');
+
+
+/* 
+font-family: 'Jockey One', sans-serif;
+font-family: 'Jura', sans-serif;
+*/
+
 .App {
   text-align: center;
 }
@@ -38,18 +46,84 @@
 }
 
 
+html {
+  background: #003137;
+}
 
-.parent-bg, html {
+
+.parent-bg {
   background: #003137;
   color: white;
-
+  opacity: 0;
 }
+
+.parent-bg.loaded {
+  transition: opacity 1.5s ease-in-out;
+  opacity: 1;
+}
+
 .body {
   /* min-width: 100vh; */
   position: absolute;
   margin-left: 8%;
   width: 92%;
   margin-bottom: 20px;
+}
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: #003137;
+
+}
+.loading-text {
+  width: 28vw;
+  height: 28vw;
+  background-image: url(./Assets/nhw-logo-blue-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: spin 3s infinite linear;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: rotate(1800deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+
+}
+#AboutMe {
+  /* placement */
+  margin: 3% auto;
+  display: block;
+  text-align: center;
+  /* size */
+  width: 80%;
+  font-size: 2vw;
+
+  /* style */
+  border: 0px;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.5s ease;
+  font-family: 'Jockey One', sans-serif;
+
+}
+#AboutMe.active{
+  background: #fff;
+  color: black;
 }
 
 

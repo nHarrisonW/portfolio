@@ -18,7 +18,9 @@ export default function AdvGenerator() {
 
       {/* <p>this project utilizes the <a href="https://api.adviceslip.com">advice slip api</a>, and was created using react-bootstrap</p> */}
       <div>
-        <a href="https://wilkinshadvicegenerator.azurewebsites.net/">
+        <a
+        target='_blank'
+        href="https://wilkinshadvicegenerator.azurewebsites.net/">
 
           <h1>advice generator</h1>
 

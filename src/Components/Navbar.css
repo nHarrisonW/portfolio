@@ -21,10 +21,11 @@ svg {
 }
 
 .entries {
-    height: 100vh;
+    height: 90vh;
     justify-content: flex-end;
     display: inline-flex;
     flex-direction: column;
+    margin-bottom: 100%;
 }
 .top {
     position: absolute;

@@ -10,7 +10,9 @@ export default function Rpsls() {
   return (
     <div className='Game'>
       <div>
-        <a href="https://rpslsbyharrison.azurewebsites.net/">
+        <a 
+        target='_blank'
+        href="https://rpslsbyharrison.azurewebsites.net/">
           <h1>rock vs paper vs scissors vs lizard vs spock</h1>
         </a>
         <p>the <span className='pink'> rock paper scissors lizard spock </span>game is an exciting and interactive single-page application that showcases my frontend development skills using <span className='purple'> react bootstrap </span>. with the integration of an <span className='aqua'> api call</span>, this project takes the classic game to the next level by allowing users to play against a computer opponent and enjoy a challenging and engaging gameplay experience.</p>
