@@ -81,10 +81,10 @@ html {
 .loading-text {
   width: 28vw;
   height: 28vw;
-  background-image: url(./Assets/nhw-logo-blue-removebg-preview.png);
+  background-image: url(./Assets/nhwLogoV.2.png);
   background-repeat: no-repeat;
   background-size: contain;
-  animation: spin 3s infinite linear;
+  animation: spin 4s infinite linear;
   animation-timing-function: ease-in-out;
 }
 

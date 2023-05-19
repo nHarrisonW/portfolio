@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import logoImg from '../Assets/nhw-logo-blue-removebg-preview.png'
+import logoImg from '../Assets/nhwLogoV.2.png'
 
 export default function Hero() {
   return (    <div className='box'>
