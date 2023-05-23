@@ -24,6 +24,18 @@ export default function App() {
   }
 
 
+  // handling mode
+  const [theme, set_theme] = useState('dark');
+  const [toggle_night, set_toggle_night] = useState(true);
+
+  const handle_mode = () => {
+    if (theme === 'dark') {
+      set_theme('light')
+    } else {
+      set_theme('dark')
+    }
+  }
+
   const [isLoading, setIsLoading] = useState(true);
   const [showAboutMe, setShowAboutMe] = useState(false);
 
@@ -67,7 +79,7 @@ export default function App() {
       ) : (
         <div className={`parent-bg ${theme}`}>
           <div className="nav">
-            <NavBar />
+            <NavBar theme={theme} toggle_night={toggle_night} handle_mode={handle_mode} />
           </div>
           <div className="body">
             <Hero />

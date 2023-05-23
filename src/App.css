@@ -125,6 +125,10 @@ html {
   background: #fff;
   color: black;
 }
+.light {
+  color: black;
+  background: #fff;
+}
 
 
 @media (max-width: 770px) {
