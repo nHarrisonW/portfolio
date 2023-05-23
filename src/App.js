@@ -65,7 +65,7 @@ export default function App() {
           <div className="loading-text"></div>
         </div>
       ) : (
-        <div className="parent-bg">
+        <div className={`parent-bg ${theme}`}>
           <div className="nav">
             <NavBar />
           </div>

@@ -45,3 +45,14 @@ svg {
  .parent {
     flex-direction: row;
  }
+
+
+ .light .entryIco {
+
+    fill: black !important;
+    color: #081F22;
+ }
+ .light {
+    color: #081F22;
+    background: white;
+ }
